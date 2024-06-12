@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <title>Sign-in</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container_logo">
+        <img class="container_logo_img" src="./images/logo.svg" alt="logo" />
+        <p class="container_logo_text">
+          <span class="text_blue">Archi</span>Tasks
+        </p>
+      </div>
+      <div class="container_form">
+        <label class="container_label">
+          <p class="container_label_text">Email or Username</p>
+          <input id="inputName" class="container_label_input" type="text" />
+        </label>
+        <label class="container_label">
+          <p class="container_label_text">Password</p>
+          <input id="inputPassword" class="container_label_input" type="password" />
+        </label>
+        <a class="container_redirect" href="/sign-up.html">
+          Don’t have an account? <span class="text_red"> Register</span>
+        </a>
+      </div>
+      <button id="btnSignIn" class="btn btn-outline">Sign-in</button>
+    </div>
+    <script src="./js/signIn.js"></script>
+  </body>
+</html>
